@@ -1,0 +1,16 @@
+<html ng-app='MyApp'>
+<head>
+    <link rel="stylesheet" href="../bower_components/foundation/css/foundation.min.css">
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="ex2.js"></script>
+</head>
+<body ng-controller="MyController">
+<div class="row">
+    <h1>Joke {{data.value.id}}</h1>
+    <h3>{{data.value.joke}}</h3>
+    <button ng-click="FetchJoke()">Fetch joke</button>
+</div>
+<div class="row"><a href="../presentation.html#example3">Back</a></div>
+
+</body>
+</html>
